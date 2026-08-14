@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Tecnológico El Molino | Rediseño del Portal ITEC</title>
+    <meta name="description" content="Reingeniería del Ecosistema Digital ITEC: propuesta de rediseño del portal del Instituto Tecnológico El Molino.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="site-header">
+        <div class="mobile-overlay" id="mobile-overlay"></div>
+        <header class="navbar" id="navbar">
+            <div class="container navbar-container">
+                <a class="logo" href="#inicio" aria-label="Ir al inicio"><img src="img/logo.png" alt="Instituto Tecnológico El Molino"></a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menú" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+                <nav class="nav-menu" id="nav-menu" aria-label="Navegación principal">
+                    <button class="close-mobile-menu" id="close-mobile-menu" aria-label="Cerrar menú">&times;</button>
+                    <ul class="nav-list">
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                        <li class="nav-item has-dropdown">
+                            <a class="nav-link" href="#institucional">Institucional<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-link" href="#articulacion">Articulación</a></li>
+                                <li><a class="dropdown-link" href="#infraestructura">Infraestructura</a></li>
+                                <li><a class="dropdown-link" href="#noticias">Noticias</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item has-dropdown">
+                            <a class="nav-link" href="#formacion">FORMACIÓN<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-link" href="#tecnicaturas">Tecnicaturas</a></li>
+                                <li><a class="dropdown-link" href="#formacion-profesional">Formación Profesional</a></li>
+                                <li><a class="dropdown-link" href="#capacitaciones">Capacitaciones</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                        <li class="nav-item nav-cta"><a class="btn-outline" href="http://empresas.itec-elmolino.edu.ar" target="_blank" rel="noopener">Empresas que Educan</a></li>
+                        <li class="nav-item nav-cta"><a class="btn-solid" href="http://www.adimra.org.ar/reddecentros/inicio.do" target="_blank" rel="noopener">La Red</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </header>
+
+    <main id="app">
+        <section class="hero" id="inicio">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <span class="hero-badge">Reingeniería del Ecosistema Digital ITEC</span>
+                    <h1 class="hero-title">Formando <em>personas valiosas</em> para la región y sus empresas</h1>
+                    <p class="hero-text">Un proyecto educativo de articulación público-privada que responde a las necesidades de formación práctica y brinda servicios para la mejora de la competitividad de las pymes de la región.</p>
+                    <div class="hero-actions">
+                        <a class="btn btn--primary" href="#formacion">Ver Oferta Académica</a>
+                        <a class="btn btn--ghost-light" href="#institucional">Conocer el Instituto</a>
+                    </div>
+                    <div class="hero-meta">
+                        <div><strong>25+ años</strong>de trayectoria</div>
+                        <div><strong>Esperanza</strong>Santa Fe, Argentina</div>
+                        <div><strong>Público-privada</strong>articulación educativa</div>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <img src="img/hero-1.jpg" alt="Equipamiento tecnológico">
+                    <img src="img/hero-2.jpg" alt="Aula taller">
+                    <img src="img/hero-3.jpg" alt="Formación por competencias">
+                </div>
+            </div>
+        </section>
+
+        <section class="anniversary" aria-label="25 aniversario">
+            <div class="container anniversary-inner">
+                <img src="img/25-anios.png" alt="25 aniversario del ITEC">
+                <h2 class="anniversary-title">Celebramos 25 años formando talento para la región</h2>
+                <a class="anniversary-link" href="https://itec-elmolino.edu.ar/25-aniversario/" target="_blank" rel="noopener">+ Sobre el 25º Aniversario</a>
+            </div>
+        </section>
+
+        <section class="section section--soft">
+            <div class="container">
+                <div class="section-head section-head--center">
+                    <span class="section-tag">Articulación institucional</span>
+                    <h2 class="section-title">Instituciones que hacen posible el proyecto</h2>
+                    <p class="section-subtitle">El ITEC surge y se sostiene gracias a la articulación entre el sector público y el privado de la región.</p>
+                </div>
+                <div class="partners">
+                    <a href="http://www.cicae.org.ar/" target="_blank" rel="noopener"><img src="img/cicae.png" alt="CICAE"></a>
+                    <a href="http://www.esperanza.gov.ar/" target="_blank" rel="noopener"><img src="img/muni-esperanza.png" alt="Municipalidad de Esperanza"></a>
+                    <a href="http://rurallascolonias.com.ar/" target="_blank" rel="noopener"><img src="img/sociedad-rural.png" alt="Sociedad Rural de las Colonias"></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container split">
+                <div>
+                    <span class="section-tag">Acerca del instituto</span>
+                    <h2 class="split-title">El Molino</h2>
+                    <p class="split-text">Es un <strong>proyecto educativo de articulación público-privada</strong>, que surge y se sostiene para dar respuesta a necesidades de formación práctica y brindar servicios para la mejora de la competitividad de las pymes de la región.</p>
+                    <a class="btn btn--ghost-dark" href="#institucional">+ Acerca del instituto</a>
+                </div>
+                <img class="split-image" src="img/hero-1.jpg" alt="Equipamiento tecnológico del ITEC">
+            </div>
+        </section>
+
+        <section class="section section--soft">
+            <div class="container">
+                <div class="section-head section-head--center">
+                    <span class="section-tag">Nuestra propuesta</span>
+                    <h2 class="section-title">Formación y servicios para el desarrollo productivo</h2>
+                </div>
+                <div class="grid-2">
+                    <article class="card">
+                        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg></div>
+                        <h3 class="card-title">FORMACIÓN</h3>
+                        <p class="card-text">Espacios propicios para el logro de aprendizajes significativos en los distintos niveles organizacionales: tecnicaturas terciarias, formación profesional y capacitaciones.</p>
+                        <a class="card-link" href="#formacion">NUESTRA PROPUESTA<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+                        <h3 class="card-title">SERVICIOS</h3>
+                        <p class="card-text">Servicios tecnológicos, de asistencia técnica y gestión de financiamiento para que las empresas se adecuen a los cambios con eficiencia, competitividad y rentabilidad.</p>
+                        <a class="card-link" href="#servicios">NUESTRA PROPUESTA<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-label="Empresas que Educan">
+            <div class="container">
+                <div class="card empresas-card">
+                    <div>
+                        <span class="section-tag">Vinculación con las empresas</span>
+                        <h2 class="card-title">Potenciar la vinculación del ITEC con las empresas de la ciudad</h2>
+                        <p class="card-text">Generamos espacios de intercambio y formación para fidelizar la relación con el sector productivo a través del programa Empresas que Educan.</p>
+                    </div>
+                    <a class="btn btn--primary" href="http://empresas.itec-elmolino.edu.ar" target="_blank" rel="noopener">Visitar Empresas que Educan</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="institucional">
+            <div class="container">
+                <div class="section-head"><span class="section-tag">Institucional</span><h2 class="section-title">Misión y Visión</h2></div>
+                <div class="content-block">
+                    <h2>Misión</h2>
+                    <p>Contribuir al fortalecimiento del sector productivo local y regional a través de la excelencia en formación del talento humano, como así también, brindando servicios de asistencia técnica y tecnológica que acompañe su desarrollo e innovación.</p>
+                    <h2>Visión</h2>
+                    <p>Ser líderes a nivel local y regional en la formación del talento humano como así también en el acompañamiento del sector productivo brindando servicios y asistencia técnica.</p>
+                </div>
+                <div class="section-head"><span class="section-tag">Autoridades</span><h2 class="section-title">Comisión Directiva</h2></div>
+                <ul class="staff-list">
+                    <li><span class="staff-role">Presidente</span><span class="staff-name">Víctor Sarmiento (CICAE)</span></li>
+                    <li><span class="staff-role">Vice-Presidente</span><span class="staff-name">Andrés Grenón (Municipalidad de Esperanza)</span></li>
+                    <li><span class="staff-role">Secretario</span><span class="staff-name">María Victoria Nagel (Municipalidad de Esperanza)</span></li>
+                    <li><span class="staff-role">Pro-Secretario</span><span class="staff-name">Diego Alonso (Sociedad Rural de las Colonias)</span></li>
+                    <li><span class="staff-role">Tesorero</span><span class="staff-name">Ana M. Marnico (CICAE)</span></li>
+                    <li><span class="staff-role">Pro-Tesorero</span><span class="staff-name">Hugo Ortega (Municipalidad de Esperanza)</span></li>
+                    <li><span class="staff-role">1º Vocal</span><span class="staff-name">Hugo Enrique Weidmann (CICAE)</span></li>
+                    <li><span class="staff-role">2º Vocal</span><span class="staff-name">Jorge Allín (CICAE)</span></li>
+                    <li><span class="staff-role">3º Vocal</span><span class="staff-name">Eduardo Weidmann (Sociedad Rural de las Colonias)</span></li>
+                    <li><span class="staff-role">4º Vocal</span><span class="staff-name">Nicolás Cardozo (Municipalidad de Esperanza)</span></li>
+                    <li><span class="staff-role">5º Vocal</span><span class="staff-name">Nicolás Kinen (Municipalidad de Esperanza)</span></li>
+                    <li><span class="staff-role">6º Vocal</span><span class="staff-name">Andrea Voelkli (Municipalidad de Esperanza)</span></li>
+                </ul>
+                <div class="section-head"><span class="section-tag">Equipo de trabajo</span><h2 class="section-title">Nuestro equipo</h2></div>
+                <ul class="staff-list">
+                    <li><span class="staff-role">Dirección General</span><span class="staff-name">Lic. Gustavo Zenclussen</span></li>
+                    <li><span class="staff-role">Dirección Formación Profesional y Capacitación</span><span class="staff-name">Lic. María Verónica Cardoso</span></li>
+                    <li><span class="staff-role">Dirección Tecnicaturas</span><span class="staff-name">Lic. Ma. Jimena Haye</span></li>
+                    <li><span class="staff-role">Gestión Académica Tecnicaturas</span><span class="staff-name">Téc. Sup. Verónica Ravasio</span></li>
+                    <li><span class="staff-role">Gestión Administrativa</span><span class="staff-name">Téc. Sup. Nerina Della Bitta</span></li>
+                    <li><span class="staff-role">Gestión Operativa Formación Profesional y Capacitación</span><span class="staff-name">Téc. Sup. Cristian Tapia</span></li>
+                    <li><span class="staff-role">Responsable de Talleres y Laboratorios</span><span class="staff-name">Téc. Sup. Miguel Grasso</span></li>
+                    <li><span class="staff-role">Gestión de Proyectos y Financiamiento</span><span class="staff-name">Lic. Virginia Mainardi</span></li>
+                    <li><span class="staff-role">Gestión Operativa Tecnicaturas</span><span class="staff-name">Téc. Sup. Franco Kiverling</span></li>
+                    <li><span class="staff-role">Auxiliar de Talleres y Laboratorios</span><span class="staff-name">Téc. Sup. Natalia Villalba</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section section--soft" id="articulacion">
+            <div class="container">
+                <div class="section-head"><span class="section-tag">Institucional</span><h2 class="section-title">Articulación</h2><p class="section-subtitle">Vínculos del ITEC con organismos y redes a nivel nacional, provincial y regional.</p></div>
+                <div class="content-block">
+                    <h2>A nivel nacional</h2>
+                    <ul><li>Instituto Nacional de Educación Tecnológica (INET)</li><li>Ministerio de Trabajo y Empleo de la Nación</li><li>Ministerio de Ciencia y Tecnología</li><li>Ministerio de Producción</li><li>Red ACET</li><li>Red de Centros Tecnológicos de ADIMRA</li></ul>
+                    <h2>A nivel provincial</h2>
+                    <ul><li>Secretaría de Estado de la Energía de Santa Fe</li><li>Ministerio de Ciencia, Tecnología e Innovación de Santa Fe</li><li>Ministerio de Producción de Santa Fe</li><li>Ministerio de Educación de Santa Fe</li></ul>
+                    <h2>A nivel regional</h2>
+                    <ul><li>ACADER — Asociación de Cooperativas de la Región</li><li>CIMAE — Centro de Industria Metalúrgica de Esperanza</li><li>CIME — Centro de Industria Metalúrgica de la Región</li><li>IDEAR — Incubadora de Empresas</li><li>Polo Tecnológico de la Región</li></ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="infraestructura">
+            <div class="container">
+                <div class="section-head"><span class="section-tag">Institucional</span><h2 class="section-title">Infraestructura y Equipamiento</h2><p class="section-subtitle">Espacios que permiten concretar uno de los principales objetivos: formación práctica de los alumnos.</p></div>
+                <div class="grid-2">
+                    <article class="program-card"><h3 class="program-title">Talleres de Mecanizado</h3><p class="program-desc">Sector de máquinas y herramientas, sector de soldadura, laboratorio de CNC y laboratorio de metrología dimensional.</p><img class="program-img" src="img/infra-1.jpg" alt="Talleres de Mecanizado"></article>
+                    <article class="program-card"><h3 class="program-title">Química y Energías</h3><p class="program-desc">Laboratorio de química y planta piloto de biodiesel para la formación en procesos industriales y energías renovables.</p><img class="program-img" src="img/infra-2.jpg" alt="Química y Energías"></article>
+                    <article class="program-card"><h3 class="program-title">Informática y Diseño</h3><p class="program-desc">Laboratorio de diseño asistido por computadora (CAD) y laboratorio de informática de gestión.</p><img class="program-img" src="img/infra-3.jpg" alt="Informática y Diseño"></article>
+                    <article class="program-card"><h3 class="program-title">Energía y Física</h3><p class="program-desc">Laboratorio de neumática e hidráulica, laboratorio de electricidad y electrónica y laboratorio de física.</p><img class="program-img" src="img/infra-4.jpg" alt="Energía y Física"></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--soft" id="formacion">
+            <div class="container">
+                <div class="section-head section-head--center"><span class="section-tag">FORMACIÓN</span><h2 class="section-title">Propuesta educativa del ITEC</h2><p class="section-subtitle">Tecnicaturas terciarias, formación profesional y capacitaciones.</p></div>
+                <div class="grid-3">
+                    <article class="card"><img class="card-img" src="img/formacion-1.jpg" alt="Tecnicaturas Terciarias"><span class="program-badge program-badge--ok">Aprobadas por el Ministerio de Educación</span><h3 class="card-title">Tecnicaturas Terciarias</h3><p class="card-text">Conectan diariamente la educación y el trabajo. Responden a demandas tanto sociales como productivas.</p><a class="card-link" href="#tecnicaturas">Ver Tecnicaturas<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></article>
+                    <article class="card"><img class="card-img" src="img/formacion-2.jpg" alt="Cursos de Formación Profesional"><span class="program-badge program-badge--ok">Formación por competencias</span><h3 class="card-title">Cursos de Formación Profesional</h3><p class="card-text">Cursos y programas orientados a fortalecer capacidades en los actuales y futuros trabajadores.</p><a class="card-link" href="#formacion-profesional">Ver Cursos<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></article>
+                    <article class="card"><img class="card-img" src="img/formacion-3.jpg" alt="Capacitación y Perfeccionamiento"><span class="program-badge program-badge--ok">Demandas actuales</span><h3 class="card-title">Capacitación y Perfeccionamiento</h3><p class="card-text">Formación, actualización y perfeccionamiento de personas que trabajan en organizaciones.</p><a class="card-link" href="#capacitaciones">Ver Capacitaciones<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="tecnicaturas">
+            <div class="container">
+                <div class="section-head"><span class="section-tag">FORMACIÓN</span><h2 class="section-title">Tecnicaturas Terciarias</h2><p class="section-subtitle">Las tecnicaturas terciarias conectan diariamente la educación y el trabajo. Responden a demandas tanto sociales como productivas.</p></div>
+                <div class="content-block"><p>Preparamos al alumno para desempeñarse como <strong>mando medio</strong> dentro de la estructura organizacional. El egresado actuará como vínculo entre los niveles gerenciales y operativos, y trabajará en temáticas propias de cada carrera, en aspectos comunicacionales y de planificación.</p></div>
+                <div class="grid-2">
+                    <article class="program-card"><h3 class="program-title">TEC. SUPERIOR EN GESTIÓN INDUSTRIAL</h3><p class="program-desc">El técnico puede implementar, evaluar, organizar y conducir diversas áreas organizacionales: administración, comercialización, producción, finanzas, compras y ventas.</p><div class="program-meta"><span>Duración: 3 años</span><span>Res. 1185/2015</span></div><a class="program-download" href="https://itec-elmolino.edu.ar/wp-content/uploads/2017/12/plan_de_estudio-tec_sup_gestion_industrial.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg> Descargar Plan de Estudio</a></article>
+                    <article class="program-card"><h3 class="program-title">TEC. SUPERIOR EN MANTENIMIENTO INDUSTRIAL</h3><p class="program-desc">El técnico puede gestionar el mantenimiento del equipamiento industrial: eléctrico, hidráulico, neumático, electrónico y de instalaciones frigoríficas.</p><div class="program-meta"><span>Duración: 3 años</span><span>Res. 1186/2015</span></div><a class="program-download" href="https://itec-elmolino.edu.ar/wp-content/uploads/2017/12/plan_de_estudio-tec_sup_mantenimiento_industrial.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg> Descargar Plan de Estudio</a></article>
+                    <article class="program-card"><span class="program-badge">No abre inscripciones 2026</span><h3 class="program-title">TEC. SUPERIOR EN GESTIÓN DE ENERGÍAS RENOVABLES, USO RACIONAL Y EFICIENCIA ENERGÉTICA</h3><p class="program-desc">El técnico puede diseñar, proyectar, evaluar y gestionar sistemas energéticos para posicionarlos en un nivel óptimo de eficiencia y racionalidad en su uso.</p><div class="program-meta"><span>Duración: 3 años</span><span>Res. 1631/2015</span></div><a class="program-download" href="https://itec-elmolino.edu.ar/wp-content/uploads/2017/12/plan_de_estudio-tec_sup_gestion_energia.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg> Descargar Plan de Estudio</a></article>
+                    <article class="program-card"><h3 class="program-title">TEC. SUPERIOR EN LOGÍSTICA</h3><p class="program-desc">El técnico está capacitado para organizar y gestionar la distribución y despacho, el transporte, la recepción y el almacenamiento de bienes, como así también la información administrativa vinculada a estos procesos.</p><div class="program-meta"><span>Duración: 3 años</span><span>Res. 0377/2016</span></div><a class="program-download" href="https://itec-elmolino.edu.ar/wp-content/uploads/2017/10/plan_de_estudio-tec_sup_logistica.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg> Descargar Plan de Estudio</a></article>
+                    <article class="program-card"><h3 class="program-title">TEC. SUPERIOR EN DESARROLLO DE SOFTWARE</h3><p class="program-desc">El técnico está habilitado para diseñar, construir y verificar artefactos de software de complejidad media, respondiendo a especificaciones de sistemas de información.</p><div class="program-meta"><span>Duración: 3 años</span><span>Res. 2120/2016</span></div><a class="program-download" href="https://itec-elmolino.edu.ar/wp-content/uploads/2022/09/Tec.-Sup.-Desarrollo-de-Software.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg> Descargar Plan de Estudio</a></article>
+                    <article class="program-card"><h3 class="program-title">TEC. SUPERIOR EN SEGURIDAD, HIGIENE Y MEDIO AMBIENTE EN EL TRABAJO</h3><p class="program-desc">El técnico está habilitado para aplicar métodos seguros, asesorar en la implementación de programas para la salud de los trabajadores, supervisar riesgos, realizar auditorías e impartir cursos.</p><div class="program-meta"><span>Duración: 3 años</span><span>Res. 1584</span></div><a class="program-download" href="https://drive.google.com/file/d/1YmjMuMXjEZ8zSiHhME58_v6p-Cq0Ylyf/view" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg> Descargar Plan de Estudio</a></article>
+                </div>
+                <div class="content-block"><p>Los títulos emitidos por el ITEC, como Instituto de Educación Superior Privado Incorporado Nº 4085 por el Ministerio de Educación de la Provincia de Santa Fe y respondiendo a las normas fijadas por el Consejo Federal de Educación, tienen validez nacional y reconocimiento en todas las jurisdicciones.</p></div>
+            </div>
+        </section>
+
+        <section class="section section--soft" id="formacion-profesional">
+            <div class="container">
+                <div class="section-head"><span class="section-tag">FORMACIÓN</span><h2 class="section-title">Formación Profesional</h2><p class="section-subtitle">Cursos y programas orientados a fortalecer capacidades en los actuales y futuros trabajadores. Aprendizaje y perfeccionamiento de un oficio o profesión.</p></div>
+                <div class="content-block">
+                    <p>Promovemos el enfoque de <strong>"formación basada en competencias"</strong>: mayor integración entre el proceso formativo del alumno y su futuro desempeño como trabajador, en una situación real de trabajo, con espacios preparados para la formación práctica.</p>
+                    <img class="content-img" src="img/formacion-profesional.jpg" alt="Formación profesional en el ITEC">
+                </div>
+                <div class="grid-2">
+                    <article class="card">
+                        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg></div>
+                        <h3 class="card-title">Trayectos Formativos</h3>
+                        <p class="card-text">Permiten al alumno estructurar y profundizar su formación a través de una secuencia de cursos. Los objetivos de cada formación surgen en términos de capacidades necesarias para la actividad o especialidad elegida.</p>
+                        <a class="card-link" href="https://itec-elmolino.edu.ar/formacion/formacion-profesional/trayectos-formativos/" target="_blank" rel="noopener">CONOCÉ NUESTROS TRAYECTOS FORMATIVOS<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+                        <h3 class="card-title">Cursos Vigentes</h3>
+                        <p class="card-text">Cursos de formación profesional para el desarrollo de competencias laborales, impulsados por el Ministerio de Trabajo y Empleo de la Nación junto a la Red de Centros de ADIMRA.</p>
+                        <a class="card-link" href="https://itec-elmolino.edu.ar/formacion/formacion-profesional/cursos-vigentes/" target="_blank" rel="noopener">VER CURSOS<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="capacitaciones">
+            <div class="container">
+                <div class="section-head"><span class="section-tag">FORMACIÓN</span><h2 class="section-title">Capacitaciones</h2><p class="section-subtitle">Formación, actualización y perfeccionamiento de personas que trabajan en organizaciones, para responder a demandas actuales de los puestos de trabajo.</p></div>
+                <div class="content-block">
+                    <p>Ofrecemos diversas metodologías: <strong>seminarios, talleres y cursos</strong>, generados a medida de la empresa (capacitaciones internas) y abiertas al público en general.</p>
+                    <img class="content-img" src="img/capacitaciones.jpg" alt="Capacitaciones del ITEC">
+                </div>
+                <div class="grid-2">
+                    <article class="card">
+                        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/></svg></div>
+                        <h3 class="card-title">Trayectos Formativos</h3>
+                        <p class="card-text">Para profundizar la experiencia obtenida en el puesto, vinculándola con conceptos y fundamentos técnicos de las tareas que realiza.</p>
+                        <a class="card-link" href="https://itec-elmolino.edu.ar/trayectos-formativos" target="_blank" rel="noopener">CONOCÉ NUESTROS TRAYECTOS<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
+                        <h3 class="card-title">Capacitaciones Vigentes</h3>
+                        <p class="card-text">Cursos, talleres y seminarios de actualización y perfeccionamiento para empresas y público en general.</p>
+                        <a class="card-link" href="https://itec-elmolino.edu.ar/capacitaciones-vigentes" target="_blank" rel="noopener">INSCRIBITE A NUESTRAS CAPACITACIONES<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--soft" id="servicios">
+            <div class="container">
+                <div class="section-head section-head--center"><span class="section-tag">Servicios</span><h2 class="section-title">Asistencia técnica y servicios tecnológicos</h2><p class="section-subtitle">Para que las empresas se manejen con eficiencia, competitividad y rentabilidad.</p></div>
+                <div class="grid-3">
+                    <article class="card">
+                        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></div>
+                        <h3 class="card-title">Servicios Tecnológicos</h3>
+                        <p class="card-text">Ensayos destructivos (tracción, dureza de metales), no destructivos (tintas penetrantes, mediciones por ultrasonido) y metalografía, para que las empresas cumplan con los estándares de calidad del mercado.</p>
+                        <ul class="servicios-list"><li>Ensayos destructivos</li><li>Ensayos no destructivos</li><li>Ensayos metalográficos</li><li>Soldadura</li></ul>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+                        <h3 class="card-title">UVT — Vinculación Tecnológica</h3>
+                        <p class="card-text">Asiste en el desarrollo de proyectos orientados al fortalecimiento de actividades productivas y comerciales, al fomento de innovaciones y a la transmisión de tecnología. Facilita la gestión de programas de organismos nacionales, provinciales y locales.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+                        <h3 class="card-title">Asistencia Técnica y Consultoría</h3>
+                        <p class="card-text">Servicios de consultoría y asistencia técnica a medida en gestión de RR.HH., diseño e implementación de sistemas y normas de calidad, reingeniería de empresas, automatización y control de la producción, planes de negocio y de marketing.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="noticias">
+            <div class="container">
+                <div class="section-head section-head--center"><span class="section-tag">Noticias</span><h2 class="section-title">Novedades del Instituto</h2><p class="section-subtitle">Cursos, proyectos y actividades del ITEC.</p></div>
+                <div class="grid-3">
+                    <article class="news-card"><img class="news-thumb" src="img/noticia-1.jpeg" alt="Comenzó la segunda edición del curso de Mantenimiento y Reparación de Motores a Explosión"><div class="news-body"><span class="news-date">30 de julio de 2026</span><h3 class="news-title">Comenzó la segunda edición del curso de "Mantenimiento y Reparación de Motores a Explosión"</h3><p class="news-excerpt">La propuesta vuelve a dictarse en el ITEC en respuesta a la demanda de las empresas de la región.</p><a class="news-more" href="https://itec-elmolino.edu.ar/comenzo-la-segunda-edicion-del-curso-de-mantenimiento-y-reparacion-de-motores-a-explosion/" target="_blank" rel="noopener">Leer más</a></div></article>
+                    <article class="news-card"><img class="news-thumb" src="img/noticia-2.jpeg" alt="La formación a medida fortalece el desarrollo del talento en las empresas"><div class="news-body"><span class="news-date">30 de julio de 2026</span><h3 class="news-title">La formación a medida fortalece el desarrollo del talento en las empresas</h3><p class="news-excerpt">El ITEC y Yeruvá S.A. desarrollan conjuntamente una propuesta de capacitación.</p><a class="news-more" href="https://itec-elmolino.edu.ar/la-formacion-a-medida-fortalece-el-desarrollo-del-talento-en-las-empresas/" target="_blank" rel="noopener">Leer más</a></div></article>
+                    <article class="news-card"><img class="news-thumb" src="img/noticia-3.jpeg" alt="El Trayecto de Arranque de Viruta avanza con la formación en Programación y Operación de CNC"><div class="news-body"><span class="news-date">30 de julio de 2026</span><h3 class="news-title">El Trayecto de Arranque de Viruta avanza con la formación en Programación y Operación de CNC</h3><p class="news-excerpt">Trabajadores de empresas de Esperanza y San Carlos Centro fortalecen sus competencias.</p><a class="news-more" href="https://itec-elmolino.edu.ar/el-trayecto-de-arranque-de-viruta-avanza-hacia-su-etapa-final-con-la-formacion-en-programacion-y-operacion-de-cnc/" target="_blank" rel="noopener">Leer más</a></div></article>
+                    <article class="news-card"><img class="news-thumb" src="img/noticia-4.jpeg" alt="Finalizó una nueva edición del curso de Soldadura por Proceso TIG"><div class="news-body"><span class="news-date">6 de julio de 2026</span><h3 class="news-title">Finalizó una nueva edición del curso de Soldadura por Proceso TIG</h3><p class="news-excerpt">Trabajadores de empresas metalúrgicas de Esperanza y Franck completaron esta formación.</p><a class="news-more" href="https://itec-elmolino.edu.ar/finalizo-una-nueva-edicion-del-curso-de-soldadura-por-proceso-tig/" target="_blank" rel="noopener">Leer más</a></div></article>
+                    <article class="news-card"><img class="news-thumb" src="img/noticia-5.jpeg" alt="Con amplia participación, desarrollamos el taller Cambiando a la Velocidad de la Imaginación"><div class="news-body"><span class="news-date">23 de junio de 2026</span><h3 class="news-title">Con amplia participación, desarrollamos el taller "Cambiando a la Velocidad de la Imaginación"</h3><p class="news-excerpt">Desde el Instituto Tecnológico El Molino llevamos adelante el taller con la comunidad.</p><a class="news-more" href="https://itec-elmolino.edu.ar/con-una-amplia-participacion-desarrollamos-el-taller-cambiando-a-la-velocidad-de-la-imaginacion/" target="_blank" rel="noopener">Leer más</a></div></article>
+                    <article class="news-card"><img class="news-thumb" src="img/noticia-6.jpeg" alt="Comienza una nueva edición del curso de Teoría de la Construcción en Seco y Steel Framing"><div class="news-body"><span class="news-date">9 de junio de 2026</span><h3 class="news-title">Comienza una nueva edición del curso de Teoría de la Construcción en Seco y Steel Framing</h3><p class="news-excerpt">Con una destacada participación de profesionales y técnicos vinculados al sector.</p><a class="news-more" href="https://itec-elmolino.edu.ar/con-una-amplia-convocatoria-comenzamos-una-nueva-edicion-del-curso-de-teoria-de-la-construccion-en-seco-y-steel-framing/" target="_blank" rel="noopener">Leer más</a></div></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--dark red-section">
+            <div class="container split">
+                <div>
+                    <img class="red-logo" src="img/red-centros.png" alt="La Red de Centros Tecnológicos de ADIMRA">
+                    <span class="section-tag">La Red</span>
+                    <h2 class="split-title">Una red federal de tecnología y formación de calidad</h2>
+                    <p class="split-text">La RED de Centros Tecnológicos de ADIMRA se posiciona como una red federal de tecnología y formación de calidad, a disposición de las empresas y trabajadores metalúrgicos de todo el país.</p>
+                    <a class="btn btn--ghost-light" href="http://www.adimra.org.ar/reddecentros/inicio.do" target="_blank" rel="noopener">Conocé la Red</a>
+                    <div class="red-partners"><span>CSI</span><span>CTDA</span><span>IAEA</span><span>Rafaela</span><span>ADIMER</span><span>CAMSFE</span><span>CEFOSE</span><span>CENSABELLA</span></div>
+                </div>
+                <img class="split-image" src="img/hero-2.jpg" alt="Aula taller del ITEC">
+            </div>
+        </section>
+
+        <section class="section section--soft" id="contacto">
+            <div class="container">
+                <div class="section-head"><span class="section-tag">Contacto</span><h2 class="section-title">Escribinos</h2><p class="section-subtitle">Un integrante de nuestro equipo se comunicará con vos a la brevedad.</p></div>
+                <div class="contact-grid">
+                    <aside class="contact-info-card">
+                        <h2 class="contact-info-title">ITEC EL MOLINO</h2>
+                        <div class="contact-item"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span><div><p class="contact-item-label">Dirección</p><p>Rivadavia 1390 1er. Piso. Esperanza, Santa Fe</p></div></div>
+                        <div class="contact-item"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><div><p class="contact-item-label">Correo electrónico</p><a href="mailto:info@itec-elmolino.edu.ar">info@itec-elmolino.edu.ar</a></div></div>
+                        <div class="contact-item"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><div><p class="contact-item-label">Teléfono</p><a href="tel:+543496426593">03496 – 426593</a></div></div>
+                        <div class="contact-item"><span class="contact-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span><div><p class="contact-item-label">WhatsApp</p><a href="https://wa.me/54349615502218" target="_blank" rel="noopener">03496-15502218</a></div></div>
+                    </aside>
+                    <form class="card" id="contact-form" novalidate="">
+                        <div class="form-success" id="form-success" role="status">¡Gracias por tu mensaje! Te responderemos a la brevedad.</div>
+                        <h2 class="card-title">Formulario de contacto</h2>
+                        <div class="form-group">
+                            <label class="form-label" for="name">Nombre</label>
+                            <input class="form-input" id="name" type="text" name="name" placeholder="Tu nombre y apellido" autocomplete="name">
+                            <p class="form-error" id="name-error"></p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email</label>
+                            <input class="form-input" id="email" type="email" name="email" placeholder="tucorreo@ejemplo.com" autocomplete="email">
+                            <p class="form-error" id="email-error"></p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="subject">Asunto</label>
+                            <input class="form-input" id="subject" type="text" name="subject" placeholder="Motivo de tu consulta">
+                            <p class="form-error" id="subject-error"></p>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" for="message">Mensaje</label>
+                            <textarea class="form-input" id="message" name="message" placeholder="Escribí tu consulta..."></textarea>
+                            <p class="form-error" id="message-error"></p>
+                        </div>
+                        <button class="btn btn--primary" type="submit" style="width: 100%;">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section newsletter">
+            <div class="container newsletter-inner">
+                <span class="section-tag">Newsletter</span>
+                <h2 class="newsletter-title">Deseo suscribirme al Newsletter del ITEC</h2>
+                <p class="newsletter-text">Recibí novedades sobre tecnicaturas, cursos de formación profesional y capacitaciones directamente en tu correo.</p>
+                <form class="form-newsletter" novalidate="">
+                    <div>
+                        <input class="form-input" id="newsletter-name" type="text" name="nname" placeholder="Nombre" aria-label="Nombre">
+                        <p class="form-error" id="newsletter-name-error"></p>
+                    </div>
+                    <div>
+                        <input class="form-input" id="newsletter-email" type="email" placeholder="Correo electrónico" aria-label="Correo electrónico">
+                        <p class="form-error" id="newsletter-email-error"></p>
+                    </div>
+                    <button class="btn btn--primary" type="submit">Suscribirme</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img class="footer-logo" src="img/logo.png" alt="ITEC El Molino">
+                    <p>Instituto de Educación Superior Privado Incorporado Nº 4085. Formando personas valiosas para la región y sus empresas.</p>
+                    <div class="social-links">
+                        <a class="social-link" href="https://x.com/ItecElMolino?lang=es" target="_blank" rel="noopener" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" class="brand-fill" aria-hidden="true"><path d="M18.9 2h3.68l-8.04 9.19L24 23h-7.41l-5.8-7.58L4.16 23H.47l8.6-9.83L0 2h7.59l5.24 6.93L18.9 2z"/></svg></a>
+                        <a class="social-link" href="https://www.facebook.com/itecelmolinoesperanza/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" class="brand-fill" aria-hidden="true"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+                        <a class="social-link" href="https://www.instagram.com/itecelmolino/?hl=es" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a>
+                        <a class="social-link" href="https://www.youtube.com/channel/UCNzjGtY_djCCKAjd4udFV_g" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" class="brand-fill" aria-hidden="true"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/></svg></a>
+                    </div>
+                </div>
+                <nav aria-label="Enlaces del footer">
+                    <h4 class="footer-title">Navegación</h4>
+                    <ul class="footer-links">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#institucional">Institucional</a></li>
+                        <li><a href="#formacion">Formación</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <h4 class="footer-title">Contacto</h4>
+                    <ul class="footer-contact">
+                        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>Rivadavia 1390 1er. Piso. Esperanza, Santa Fe</span></li>
+                        <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span><a href="mailto:info@itec-elmolino.edu.ar">info@itec-elmolino.edu.ar</a></span></li>
+                        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span><a href="tel:+543496426593">03496 – 426593</a></span></li>
+                        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><span><a href="https://wa.me/54349615502218" target="_blank" rel="noopener">03496-15502218 (WhatsApp)</a></span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-inner">
+                    <p>&copy; <span id="year">2026</span> Instituto Tecnológico El Molino. Todos los derechos reservados.</p>
+                    <p>Propuesta de rediseño &mdash; TP Integrador Programación II</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
